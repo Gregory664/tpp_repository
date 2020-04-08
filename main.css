@@ -77,14 +77,6 @@ h2 {
     width: 100%;
     height: 180px;
 }
-/* 
-.f_section p,
-.s_section p {
-    color: rgb(164, 0, 68);
-    text-align: center;
-    width: 200px;
-    font-size: 16px;
-} */
 
 .f_section img {
     width: 150px;
@@ -502,8 +494,6 @@ button#sendRequest {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     width: 450px;
     height: 500px;
     padding: 20px;
@@ -597,9 +587,9 @@ button#sendRequest {
 } 
 
 @media(max-width:425px) {
-    /* #request {
-        display: none;
-    } */
+    .document-item p.description {
+        margin-bottom: 0px;
+    }
 
     .req-item {
         padding: 10px;
