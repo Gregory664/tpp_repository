@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <title>Орган инспекции</title>
@@ -17,6 +17,100 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="menu">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#main">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stages">Этапы Инспекции</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#claim">Подача заявок и апелляций</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#types">Виды инспекции</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#documents">Сроки, документы и цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#req">Прочая информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">О нас</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="main-container">
+            <div class="f_section">
+                <p>Официальный и аккредитованный орган инспекции в Воронеже</p>
+                <img src="icon/logo.png" alt="">
+                <div class="main-contact">
+                    <p>8 (XXX) XXX-XX-XX <br>
+                        E-mail: oi@tppvrn.ru
+                    </p>
+                    <button class="more">проконсультироваться</button>
+                </div>
+            </div>
+            <div class="s_section">
+                <h1>ОРГАН ИНСПЕКЦИИ <br>
+                    Союза "Торгово-промышленная палата <br>
+                    Воронежской области"
+                </h1>
+                <p>Работаем по всей России</p>
+                <p>Даём гарантию</p>
+            </div>
+            <form method="get" action="doc/normative_document.pdf" target="_blank">
+                <button type="submit" class="details main-button">НОРМАТИВНЫЕ ДОКУМЕНТЫ</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="f-offer">
+        <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="f-offer-item">
+            <p>В 2020 году дополнительно вводится целый спектр услуг, регулируемых санитарно-эпидемиологическим
+                законодательством, предоставляемых на базе вновь созданного Органа инспекции при ТПП Воронежской области
+            </p>
+        </div>
+        <div class="f-offer-item">
+            <p class="bold">Что это значит?</p>
+            <p>Это значит, что часть деятельности, которую на сегодняшний день осуществляют структурные подразделения
+                РОСПОТРЕБНАДЗОРА, мы, на основании проведённой процедуры аккредитации и аттестата аккредитации (рабочая
+                ссылка) БЕРЕМ НА СЕБЯ.</p>
+        </div>
+        <div class="f-offer-item">
+            <p class="bold">Когда к нам обращаться?</p>
+            <p>
+                Подготовка документов для лицензирования деятельности; подготовка необходимой документации для получения
+                санитарно-эпидемиологического заключения (СЭЗ); лабораторные исследования различной направленности и их
+                гигиеническая оценка; консультационные услуги на месте и с выездом на объект (работаем со всеми
+                регионами РФ).</p>
+        </div>
+        <div class="f-offer-item">
+            <p class="bold">Новые возможности!</p>
+            <p>возможность подачи документов, как очно, так и в электронном виде (активная ссылка); прозрачность
+                отношений - информация открыта для возможности принятия рациональных и своевременных решений; вы можете
+                отслеживать на каком этапе рассмотрения находится ваша документация в режиме онлайн; возможность
+                экономии времени - лабораторные исследования проводятся на базе собственного аккредитованного
+                испытательного лабораторного центра; мы работаем со всеми регионами РФ; оперативно решаем задачи,
+                поставленные перед нами (в самые сжатые сроки); составим достойную конкуренцию государственным
+                структурам, в рамках действующего законодательства.</p>
+        </div>
+    </div>
+
     <div class="offer">
         <div class="offer-item">
             <img src="icon/icon0_red.png" alt="">
@@ -49,7 +143,7 @@
     </div>
 
 
-    <div class="stages">
+    <div class="stages" id="stages">
         <h2>ЭТАПЫ ИНСПЕКЦИИ</h2>
         <div class="stages-item">
             <div class="number">1</div>
@@ -98,8 +192,8 @@
         </div>
     </div>
 
-    <div class="claim">
-        <h2>ПОДАЧА ЗАЯВОК И АППЕЛЯЦИЙ</h2>
+    <div class="claim" id="claim">
+        <h2>ПОДАЧА ЗАЯВОК И АПЕЛЛЯЦИЙ</h2>
         <div class="claim-text">
             <p>Заказчик при обращении в Орган инспекции с целью проведения ИНСПЕКЦИИ подает заявку в установленной
                 форме.</p>
@@ -126,34 +220,54 @@
             <p>Претензии (жалобы, аппеляции) на решения Органа инспекции подаются Руководителю ОИ Союза
                 "Торгово-промышленная палата Воронежской области" по адресу: 394018, г. Воронеж, ул. 9 Января, д.36,
                 тел. X (XXX) XXX XX XX</p>
+            <div class="claim-buttons">
+                <form method="get" action="#req">
+                    <button type="submit" class="details claim-button">ПОДАТЬ ЗАЯВКУ</button>
+                </form>
+                <form method="get" action="doc/rules_for_handling_complaints_and_appeals.pdf" target="_blank">
+                    <button type="submit" class="details claim-button">ПОРЯДОК ПОДАЧИ АПЕЛЛЯЦИЙ</button>
+                </form>
+                <form method="get" action="doc/form_of_complaints_and_appeals.docx">
+                    <button type="submit" class="details claim-button">ОБРАЗЕЦ АПЕЛЛЯЦИИ</button>
+                </form>
+
+            </div>
         </div>
-        <button class="details">ПОДРОБНЕЕ</button>
     </div>
 
-    <div class="types">
+    <div class="types" id="types">
         <h2>ВИДЫ ИНСПЕКЦИИ</h2>
-        <a href="#">
+        <a href="doc/tipes_of_works.pdf" target="_blank">
             <div class="types-item">
                 <p>Санитарная-эпидемиологическая экспертиза проектной документации</p>
             </div>
         </a>
-        <div class="types-item">
-            <p>Санитарная-эпидемиологическая экспертиза продукции</p>
-        </div>
-        <div class="types-item">
-            <p>Санитарная-эпидемиологическая экспертиза объектов на соответствие требованиям санитарного
-                законодательства</p>
-        </div>
+        <a href="doc/tipes_of_works.pdf" target="_blank">
+            <div class="types-item">
+                <p>Санитарная-эпидемиологическая экспертиза продукции</p>
+            </div>
+        </a>
+        <a href="doc/tipes_of_works.pdf" target="_blank">
+            <div class="types-item">
+                <p>Санитарная-эпидемиологическая экспертиза объектов на соответствие требованиям санитарного
+                    законодательства</p>
+            </div>
+        </a>
         <div class="new-line"></div>
-        <div class="types-item">
-            <p>Консультационные услуги по вопросам обеспечения санитарно-эпидемиологического благополучия населения</p>
-        </div>
-        <div class="types-item">
-            <p>Прочие виды деятельности</p>
-        </div>
+        <a href="doc/tipes_of_works.pdf" target="_blank">
+            <div class="types-item">
+                <p>Консультационные услуги по вопросам обеспечения санитарно-эпидемиологического благополучия населения
+                </p>
+            </div>
+        </a>
+        <a href="doc/tipes_of_works.pdf" target="_blank">
+            <div class="types-item">
+                <p>Прочие виды деятельности</p>
+            </div>
+        </a>
     </div>
 
-    <div class="documents">
+    <div class="documents" id="documents">
         <h2>СРОКИ, ДОКУМЕНТЫ И ЦЕНЫ</h2>
 
         <div class="document-item">
@@ -162,34 +276,107 @@
                 иных оценок будут варьироваться от 3 календарных дней, в случае гигиенической оценки результатов
                 лабораторных исследований и испытаний, до 60 календарных дней в случае Санитарно-эпидемиологической
                 экспертизы проектной документации. </p>
-            <button class="details">ПОДРОБНЕЕ</button>
+            <form method="get" action="doc/deadlines_of_works.pdf" target="_blank">
+                <button type="submit" class="details">ПОДРОБНЕЕ</button>
+            </form>
         </div>
         <div class="nl2"></div>
         <button class="price">
-            <p>П Р А Й С - Л И С Т</p> 
+            <a href="/doc/price.pdf">
+                <p>П Р А Й С - Л И С Т </p>
+            </a>
         </button>
-        <div class="nl2"></div>
+        <div class="nl2">
+        </div>
         <div class="document-item">
             <p class="title">ПЕРЕЧЕНЬ ДОКУМЕНТОВ</p>
             <p class="description">Перечень документов необходимых для проведения санитарно-эпидемиологической
                 экспертизы будет зависить от вида требуемой санитарно-эпидемиологической экспертизы, а так же количества
                 и разнообразия требуемых исследований.</p>
-            <button class="details">ПОДРОБНЕЕ</button>
+            <form method="get" action="doc/necessary_documents.pdf" target="_blank">
+                <button type="submit" class="details">ПОДРОБНЕЕ</button>
+            </form>
         </div>
+    </div>
+
+    <div class="req" id="req">
+        <h2>КОНСУЛЬТАЦИЯ И ПОДАЧА ЗАЯВКИ</h2>
+
+        <div class="req-item">
+            <img src="img/z1.jpg" alt="">
+            <img src="img/z2.jpg" alt="">
+            <p>Загрузите заявку, заполните и очно подайте в орган инспекции</p>
+
+            <form method="get" action="doc/request_for_service.docx">
+                <button type="submit">СКАЧАТЬ ЗАЯВКУ</button>
+            </form>
+
+        </div>
+
+        <div class="req-item">
+            <p>Заполните и отправьте форму, наш консультант свяжется с вами</p>
+            <form action="" method="post" id="request">
+                <label for="name">Имя</label><br>
+                <div class="input-container">
+                    <img src="icon/name-red.png" alt="">
+                    <input type="text" name="name" id="name" required><br>
+                </div>
+                <label for="mail">Почта</label><br>
+                <div class="input-container">
+                    <img src="icon/mail-red.png" alt="">
+                    <input type="email" name="mail" id="mail" required><br>
+                </div>
+                <label for="number">Телефон</label><br>
+                <div class="input-container">
+                    <img src="icon/telephone-red.png" alt="">
+                    <input type="tel" name="number" id="number" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                </div>
+                <button type="submit" id="sendRequest">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+        <h2>О НАС И СХЕМА ПРОЕЗДА</h2>
+        <div class="contact-item">
+            <p>Орган инспекции функционирует на базе
+                испытательной лаборатории. В штате работают высококласные специалисты в области физической химии,
+                микробиологии, санитарно-эпидемиологической медицины. Наши специалисты работают на современном
+                прецизионном оборудовании, которое непрерывно проходит проверку и контроль качества.</p>
+            <p>Специалисты органа инспекции всегда готовы проконсультировать по любому вопросу и смогут простым языком
+                объяснить любые непонятные Вам вещи.</p>
+            <p><span style="font-weight: bold;">Контакты</span><br>
+                8 (XXX) XXX XX XX <br>
+                Email: oi@tppvrn.ru <br>
+                г. Воронеж, ул. 9 Января 36, 5 этаж, офис 517
+            </p>
+        </div>
+        <div class="contact-item">
+            <p style="font-weight: bold;">СХЕМА ПРОЕЗДА НА ЯНДЕКС КАРТАХ</p>
+
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa18e08945a3694140e41e26e47c96f9a64bbac679ceb1ae543582f3783551e07&amp;width=100%&amp;height=410&amp;lang=ru_RU&amp;scroll=true">
+            </script>
+        </div>
+
     </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="js/main.js" type="text/JavaScript"></script>
+
 </body>
 
 
